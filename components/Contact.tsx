@@ -66,10 +66,6 @@ export function Contact() {
 
           <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-line pt-7 text-[12.5px] text-faint sm:flex-row sm:items-center">
             <span>© {new Date().getFullYear()} Surya Pratap Singh · Delhi NCR, India</span>
-            <span className="flex items-center gap-2">
-              Built with Next.js, Framer Motion &amp; a lot of
-              <span className="text-signal">☕</span>
-            </span>
             <a href="#top" className="link-sweep font-medium text-soft hover:text-ink">
               Back to top ↑
             </a>
