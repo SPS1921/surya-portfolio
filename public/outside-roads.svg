@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="roadGlow" cx="72%" cy="22%" r="46%">
+      <stop offset="0%" stop-color="#5B9CFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#5B9CFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#16130E"/>
+  <rect width="1200" height="800" fill="url(#roadGlow)"/>
+  <!-- moon -->
+  <circle cx="880" cy="180" r="60" fill="#5B9CFF" fill-opacity="0.16"/>
+  <circle cx="880" cy="180" r="60" stroke="#5B9CFF" stroke-opacity="0.45" stroke-width="2.5"/>
+  <!-- road converging -->
+  <g stroke="#F4F1EA" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round">
+    <line x1="360" y1="800" x2="585" y2="430"/>
+    <line x1="840" y1="800" x2="615" y2="430"/>
+  </g>
+  <!-- centre dashes -->
+  <g stroke="#FBBF24" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round">
+    <line x1="600" y1="790" x2="600" y2="740"/>
+    <line x1="600" y1="690" x2="600" y2="650"/>
+    <line x1="600" y1="610" x2="600" y2="582"/>
+    <line x1="600" y1="552" x2="600" y2="534"/>
+  </g>
+  <!-- street lights -->
+  <g stroke="#F4F1EA" stroke-opacity="0.35" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M300 760 V470 H360"/>
+    <path d="M900 760 V470 H840"/>
+  </g>
+  <circle cx="360" cy="470" r="7" fill="#FBBF24" fill-opacity="0.7"/>
+  <circle cx="840" cy="470" r="7" fill="#FBBF24" fill-opacity="0.7"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2">
+    <path d="M60 60 h44 M60 60 v44"/>
+    <path d="M1140 740 h-44 M1140 740 v-44"/>
+  </g>
+</svg>

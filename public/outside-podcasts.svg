@@ -1,0 +1,33 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="podGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#16130E"/>
+  <rect width="1200" height="800" fill="url(#podGlow)"/>
+  <!-- headphones -->
+  <g stroke="#F4F1EA" stroke-opacity="0.55" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M440 400 C440 300 760 300 760 400"/>
+  </g>
+  <g fill="#A78BFA" fill-opacity="0.22" stroke="#A78BFA" stroke-opacity="0.5" stroke-width="3">
+    <rect x="410" y="392" width="58" height="110" rx="22"/>
+    <rect x="732" y="392" width="58" height="110" rx="22"/>
+  </g>
+  <!-- waveform -->
+  <g stroke="#A78BFA" stroke-opacity="0.6" stroke-width="6" stroke-linecap="round">
+    <line x1="470" y1="600" x2="470" y2="560"/>
+    <line x1="510" y1="600" x2="510" y2="520"/>
+    <line x1="550" y1="600" x2="550" y2="580"/>
+    <line x1="590" y1="600" x2="590" y2="500"/>
+    <line x1="630" y1="600" x2="630" y2="540"/>
+    <line x1="670" y1="600" x2="670" y2="480"/>
+    <line x1="710" y1="600" x2="710" y2="560"/>
+    <line x1="750" y1="600" x2="750" y2="520"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2">
+    <path d="M60 60 h44 M60 60 v44"/>
+    <path d="M1140 740 h-44 M1140 740 v-44"/>
+  </g>
+</svg>

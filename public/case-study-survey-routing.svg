@@ -1,0 +1,42 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Space Grotesk', Arial, sans-serif">
+  <rect width="800" height="500" fill="#16130E"/>
+  <text x="56" y="74" fill="#8F887A" font-size="15" letter-spacing="3" font-weight="500">PROCESS DESIGN</text>
+  <!-- before: tangled -->
+  <text x="56" y="130" fill="#EFEBE2" font-size="14" font-weight="600">Before</text>
+  <rect x="56" y="148" width="300" height="276" rx="20" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <path d="M96 200 C200 180 140 260 240 250 C320 242 180 320 260 340 C300 350 120 360 110 388"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120 220 C220 240 160 300 280 290"
+        fill="none" stroke="#FF5A2C" stroke-opacity="0.6" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="96" cy="200" r="6" fill="#FFFFFF" fill-opacity="0.4"/>
+  <circle cx="240" cy="250" r="6" fill="#FFFFFF" fill-opacity="0.4"/>
+  <circle cx="110" cy="388" r="6" fill="#FFFFFF" fill-opacity="0.4"/>
+  <circle cx="280" cy="290" r="6" fill="#FFFFFF" fill-opacity="0.4"/>
+  <!-- arrow -->
+  <g>
+    <line x1="372" y1="286" x2="436" y2="286" stroke="#EFEBE2" stroke-width="2.5"/>
+    <path d="M430 278 L444 286 L430 294 Z" fill="#EFEBE2"/>
+  </g>
+  <!-- after: clean pipeline -->
+  <text x="460" y="130" fill="#EFEBE2" font-size="14" font-weight="600">After</text>
+  <rect x="460" y="148" width="284" height="276" rx="20" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <g>
+    <line x1="540" y1="200" x2="540" y2="372" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <g>
+      <circle cx="540" cy="200" r="11" fill="#FF5A2C"/>
+      <rect x="566" y="190" width="140" height="22" rx="6" fill="#FFFFFF" fill-opacity="0.1"/>
+    </g>
+    <g>
+      <circle cx="540" cy="258" r="11" fill="#EFEBE2"/>
+      <rect x="566" y="248" width="120" height="22" rx="6" fill="#FFFFFF" fill-opacity="0.1"/>
+    </g>
+    <g>
+      <circle cx="540" cy="316" r="11" fill="#EFEBE2"/>
+      <rect x="566" y="306" width="150" height="22" rx="6" fill="#FFFFFF" fill-opacity="0.1"/>
+    </g>
+    <g>
+      <circle cx="540" cy="372" r="11" fill="#34D399"/>
+      <rect x="566" y="362" width="100" height="22" rx="6" fill="#FFFFFF" fill-opacity="0.1"/>
+    </g>
+  </g>
+</svg>

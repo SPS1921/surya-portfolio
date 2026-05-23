@@ -1,0 +1,31 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Space Grotesk', Arial, sans-serif">
+  <rect width="800" height="500" fill="#16130E"/>
+  <text x="56" y="74" fill="#8F887A" font-size="15" letter-spacing="3" font-weight="500">AI + OPS</text>
+  <!-- stacked doc cards -->
+  <rect x="120" y="150" width="220" height="280" rx="18" fill="#1E1810" stroke="#FFFFFF" stroke-opacity="0.08" transform="rotate(-6 230 290)"/>
+  <rect x="140" y="140" width="220" height="280" rx="18" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <!-- doc content -->
+  <rect x="168" y="176" width="90" height="14" rx="7" fill="#EFEBE2"/>
+  <rect x="168" y="208" width="164" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.24"/>
+  <rect x="168" y="226" width="164" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.24"/>
+  <rect x="168" y="244" width="120" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.24"/>
+  <rect x="168" y="276" width="164" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="168" y="294" width="140" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="168" y="326" width="164" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="168" y="344" width="100" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.14"/>
+  <!-- generate beam -->
+  <path d="M376 280 H446" stroke="#FF5A2C" stroke-width="2.5" stroke-dasharray="3 6" stroke-linecap="round"/>
+  <!-- AI engine -->
+  <rect x="446" y="206" width="180" height="148" rx="20" fill="#2A2318" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <path d="M536 244 L546 270 L572 280 L546 290 L536 316 L526 290 L500 280 L526 270 Z" fill="#FF5A2C"/>
+  <text x="536" y="344" text-anchor="middle" fill="#ADA697" font-size="13" font-weight="500">AI assist</text>
+  <!-- output chips -->
+  <g font-size="12" font-weight="600">
+    <rect x="654" y="216" width="92" height="30" rx="15" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="700" y="236" text-anchor="middle" fill="#EFEBE2">Drafts</text>
+    <rect x="654" y="262" width="92" height="30" rx="15" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="700" y="282" text-anchor="middle" fill="#EFEBE2">Notes</text>
+    <rect x="654" y="308" width="120" height="30" rx="15" fill="#FF5A2C"/>
+    <text x="714" y="328" text-anchor="middle" fill="#FFFFFF">Proposals</text>
+  </g>
+</svg>

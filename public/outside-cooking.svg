@@ -1,0 +1,33 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="cookGlow" cx="32%" cy="72%" r="62%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#16130E"/>
+  <rect width="1200" height="800" fill="url(#cookGlow)"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.04">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+  <!-- steam wisps -->
+  <g stroke="#FBBF24" stroke-opacity="0.45" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M520 360 C500 320 560 300 540 260 C525 230 565 210 552 180"/>
+    <path d="M600 360 C580 320 640 300 620 258 C604 226 644 206 632 174"/>
+    <path d="M680 365 C662 328 716 308 698 270"/>
+  </g>
+  <!-- pan -->
+  <g stroke="#F4F1EA" stroke-opacity="0.55" stroke-width="3.5" fill="none" stroke-linecap="round">
+    <ellipse cx="600" cy="470" rx="170" ry="40"/>
+    <path d="M430 470 C430 540 770 540 770 470"/>
+    <line x1="770" y1="470" x2="930" y2="448"/>
+    <line x1="900" y1="452" x2="940" y2="446"/>
+  </g>
+  <!-- corner framing ticks -->
+  <g stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2">
+    <path d="M60 60 h44 M60 60 v44"/>
+    <path d="M1140 740 h-44 M1140 740 v-44"/>
+  </g>
+</svg>

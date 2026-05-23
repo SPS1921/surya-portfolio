@@ -1,0 +1,42 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Space Grotesk', Arial, sans-serif">
+  <rect width="800" height="500" fill="#16130E"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.05">
+    <line x1="0" y1="125" x2="800" y2="125"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+  </g>
+  <text x="56" y="74" fill="#8F887A" font-size="15" letter-spacing="3" font-weight="500">AI WORKFLOW</text>
+  <!-- proposal doc -->
+  <rect x="56" y="150" width="150" height="200" rx="16" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="78" y="178" width="80" height="12" rx="6" fill="#EFEBE2"/>
+  <rect x="78" y="206" width="106" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.28"/>
+  <rect x="78" y="222" width="106" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.28"/>
+  <rect x="78" y="238" width="72" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.28"/>
+  <rect x="78" y="270" width="106" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.16"/>
+  <rect x="78" y="286" width="90" height="7" rx="3.5" fill="#FFFFFF" fill-opacity="0.16"/>
+  <!-- flow line -->
+  <path d="M206 250 H300" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <!-- pipeline nodes -->
+  <g>
+    <rect x="300" y="150" width="124" height="84" rx="14" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="362" y="186" text-anchor="middle" fill="#EFEBE2" font-size="16" font-weight="600">Draft</text>
+    <text x="362" y="208" text-anchor="middle" fill="#8F887A" font-size="12">AI-assisted</text>
+  </g>
+  <g>
+    <rect x="300" y="266" width="124" height="84" rx="14" fill="#221C14" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="362" y="302" text-anchor="middle" fill="#EFEBE2" font-size="16" font-weight="600">Review</text>
+    <text x="362" y="324" text-anchor="middle" fill="#8F887A" font-size="12">methodology</text>
+  </g>
+  <path d="M424 192 C470 192 470 250 470 250" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M424 308 C470 308 470 250 470 250" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2"/>
+  <path d="M470 250 H520" stroke="#FF5A2C" stroke-width="2.5"/>
+  <!-- AI spark hub -->
+  <circle cx="582" cy="250" r="60" fill="#2A2318" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <path d="M582 218 L590 242 L614 250 L590 258 L582 282 L574 258 L550 250 L574 242 Z" fill="#FF5A2C"/>
+  <text x="582" y="332" text-anchor="middle" fill="#EFEBE2" font-size="14" font-weight="600">Proposal out</text>
+  <!-- chips -->
+  <rect x="660" y="158" width="84" height="30" rx="15" fill="#FF5A2C" fill-opacity="0.18"/>
+  <text x="702" y="178" text-anchor="middle" fill="#FF8A5C" font-size="12" font-weight="600">faster</text>
+  <rect x="652" y="300" width="100" height="30" rx="15" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="702" y="320" text-anchor="middle" fill="#ADA697" font-size="12" font-weight="600">consistent</text>
+</svg>
